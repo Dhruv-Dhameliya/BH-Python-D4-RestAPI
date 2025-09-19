@@ -25,8 +25,8 @@ It supports basic CRUD operations (Create, Read, Update, Delete) on users.
 ## Installation and Setup
 1. Clone this repository:
 ```bash
-   git clone https://github.com/Dhruv-Dhameliya/BH-Python-D4-RestAPI.git
-   cd BH-Python-D4-RestAPI
+git clone https://github.com/Dhruv-Dhameliya/BH-Python-D4-RestAPI.git
+cd BH-Python-D4-RestAPI
 ```
 
 2. Install dependencies:
@@ -36,7 +36,7 @@ pip install flask
 
 3. Run the file:
 ```bash
-   python restapi.py
+python restapi.py
 ```
 
 The server will start at:
@@ -55,7 +55,7 @@ Invoke-RestMethod -Uri "http://127.0.0.1:5000/users" `
 
 2. Get All Users (GET)
 ```powershell
-   Invoke-RestMethod -Uri "http://127.0.0.1:5000/users" -Method GET
+Invoke-RestMethod -Uri "http://127.0.0.1:5000/users" -Method GET
 ```
 
 3. Update User (PUT)
